@@ -1,9 +1,22 @@
+# Dependencies
 node_modules/
+
+# Playwright reports
 playwright-report/
+blob-report/
 test-results/
 
-# Playwright
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+# Playwright cache and auth
+playwright/.cache/
+playwright/.auth/
+
+# Secrets
+credentials.json
+token.json
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
