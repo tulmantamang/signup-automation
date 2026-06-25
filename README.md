@@ -61,7 +61,7 @@ The script goes through all four steps of the registration form without any manu
 ## Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/tulmantamang/signup-automation
 cd signup_automation
 npm install
 npx playwright install chromium
